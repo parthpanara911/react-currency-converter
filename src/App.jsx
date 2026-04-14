@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { InputBox } from './components'
 import useCurrencyInfo from './hooks/useCurrencyInfo'
 
-//grgrgggg
+// Currency Converter
 function App() {
   const [amount, setAmount] = useState(0);
   const [from, setFrom] = useState('usd');
@@ -28,7 +28,7 @@ function App() {
     <div
       className="w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat"
       style={{
-        backgroundImage: `url('https://t4.ftcdn.net/jpg/17/67/75/13/240_F_1767751337_0h9eAHwrUuZ9MggqcGgHhAEsrJm7q8hh.jpg')`,
+        backgroundImage: `url('https://t4.ftcdn.net/jpg/17/96/50/39/240_F_1796503909_CEboNBuD6Ia97nUg7sBFFK6cfM9UQPDo.jpg')`,
       }}
     >
       <div className="w-full">
